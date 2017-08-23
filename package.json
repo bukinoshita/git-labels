@@ -1,6 +1,6 @@
 {
   "name": "git-labels",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Creating Github issue labels",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/git-labels.git",
@@ -18,6 +18,8 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"]
+    "extends": [
+      "prettier"
+    ]
   }
 }
