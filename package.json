@@ -6,8 +6,18 @@
   "repository": "https://github.com/bukinoshita/git-labels.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "xo"
+  },
   "dependencies": {
     "gh-got": "^6.0.0",
     "is-github-repo": "^0.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.3.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
   }
 }

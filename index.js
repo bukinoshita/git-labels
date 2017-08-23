@@ -22,7 +22,7 @@ module.exports = async (project, labels, token) => {
 
     await deleteLabels(project, labelList.body, token)
     await createLabels(project, labels, token)
-  } catch (e) {
-    throw new TypeError(e)
+  } catch (err) {
+    throw new TypeError(err)
   }
 }
