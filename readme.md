@@ -26,6 +26,28 @@ gitLabels('bukinoshita/git-labels', labels, token).then(() => console.log('Done!
 
 I've been using Github issues labels a lot these days, but I never liked the default ones. So every project I have to **manually** `delete/create/update` my issues labels with the colors and names I want. This can be done with a single command using this module.
 
+<table>
+  <tr>
+		<th width="50%">
+			Before
+		</th>
+		<th width="50%">
+			After
+		</th>
+	</tr>
+	<tr><!-- Prevent zebra stripes --></tr>
+	<tr>
+		<td>
+			<img src="media/before.png">
+		</td>
+		<td>
+			<img src="media/after.png">
+		</td>
+	</tr>
+</table>
+
+<p align="center">labels <i>names</i> and <i>colors</i> are customizable.</p>
+
 
 ## API
 
