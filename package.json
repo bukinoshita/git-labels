@@ -1,0 +1,13 @@
+{
+  "name": "git-labels",
+  "version": "0.0.0",
+  "description": "Creating Github issue labels",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/git-labels.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-got": "^6.0.0",
+    "is-github-repo": "^0.0.2"
+  }
+}
