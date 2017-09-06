@@ -6,7 +6,7 @@ const getLabels = require('./lib/get-labels')
 const deleteLabels = require('./lib/delete-labels')
 const createLabels = require('./lib/create-labels')
 
-module.exports = async (project, labels, token) => {
+module.exports = (project, labels, token) => {
   const { isGithubRepo, type } = isGitRepo(project, { withType: true })
 
   if (!token) {
@@ -17,12 +17,15 @@ module.exports = async (project, labels, token) => {
     throw new TypeError('Use project like `org/repo`')
   }
 
-  try {
-    const labelList = await getLabels(project, token)
-
-    await deleteLabels(project, labelList.body, token)
-    await createLabels(project, labels, token)
-  } catch (err) {
-    throw new TypeError(err)
-  }
+  return getLabels(project, token)
+    .then(labelList => {
+      deleteLabels(project, labelList.body, token).then(deleted => {
+        if (deleted) {
+          createLabels(project, labels, token)
+            .then(res => res)
+            .catch(err => err)
+        }
+      })
+    })
+    .catch(err => err)
 }
