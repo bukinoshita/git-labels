@@ -77,6 +77,11 @@ Required
 [Github access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
 
+## Related
+
+- [git-labels-cli](https://github.com/bukinoshita/git-labels-cli) — CLI for this module
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
