@@ -2,25 +2,24 @@
 
 > Creating Github issue labels
 
-
 ## Install
 
 ```bash
 $ yarn add git-labels
 ```
 
-
 ## Usage
 
 ```js
 const gitLabels = require('git-labels')
 
+const project = 'bukinoshita/git-labels'
 const labels = [{ name: 'bug', color: 'cb2431' }]
+const token = $token
 
-gitLabels('bukinoshita/git-labels', labels, token).then(() => console.log('Done!'))
+await gitLabels({ projecy, labels, token })
 // => Done!
 ```
-
 
 ## Why
 
@@ -47,7 +46,6 @@ I've been using Github issues labels a lot these days, but I never liked the def
 </table>
 
 <p align="center">labels <i>names</i> and <i>colors</i> are customizable.</p>
-
 
 ## API
 
@@ -76,11 +74,9 @@ Required
 
 [Github access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
-
 ## Related
 
 - [git-labels-cli](https://github.com/bukinoshita/git-labels-cli) — CLI for this module
-
 
 ## License
 
