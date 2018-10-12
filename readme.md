@@ -17,7 +17,7 @@ const project = 'bukinoshita/git-labels'
 const labels = [{ name: 'bug', color: 'cb2431' }]
 const token = $token
 
-await gitLabels({ projecy, labels, token })
+await gitLabels({ project, labels, token })
 // => Done!
 ```
 
@@ -49,7 +49,7 @@ I've been using Github issues labels a lot these days, but I never liked the def
 
 ## API
 
-### gitLabels(project, labels, token)
+### gitLabels({ project, labels, token })
 
 #### project
 
@@ -63,7 +63,7 @@ Github project.
 
 Type: `array`<br />
 Format: `[ { name: NAME, color: COLOR }, ... ]`<br />
-Required
+Default: `[labels.json](https://github.com/bukinoshita/git-labels/tree/master/utils/labels.json)`
 
 Labels to be created
 

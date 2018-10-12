@@ -1,12 +1,15 @@
-'use strict'
-
+// Packages
 const isGitRepo = require('is-github-repo')
 
+// Libs
 const getLabels = require('./lib/get-labels')
 const deleteLabels = require('./lib/delete-labels')
 const createLabels = require('./lib/create-labels')
 
-module.exports = async ({ project, labels, token } = {}) => {
+// Utils
+const defaultLabels = require('./utils/labels')
+
+module.exports = async ({ project, labels = defaultLabels, token } = {}) => {
   const { isGithubRepo, type } = isGitRepo(project, { withType: true })
 
   if (!token) {

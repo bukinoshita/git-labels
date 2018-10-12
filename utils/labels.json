@@ -1,0 +1,46 @@
+[
+  {
+    "name": "🐛 Type: Patch",
+    "color": "db5461"
+  },
+  {
+    "name": "🛠 Type: Minor",
+    "color": "0052cc"
+  },
+  {
+    "name": "⚠️ Type: Major",
+    "color": "1a936f"
+  },
+  {
+    "name": "🚧 Status: WIP",
+    "color": "ffab00"
+  },
+  {
+    "name": "🕵️ Status: PR In Review",
+    "color": "5319e7"
+  },
+  {
+    "name": "✋ Status: On Hold",
+    "color": "dddddd"
+  },
+  {
+    "name": "🚫 Status: Blocked",
+    "color": "ffc400"
+  },
+  {
+    "name": "🆒 Priority: Low",
+    "color": "dbdaea"
+  },
+  {
+    "name": "🙏 Priority: Medium",
+    "color": "fbca04"
+  },
+  {
+    "name": "🤘 Priority: High",
+    "color": "6d72c3"
+  },
+  {
+    "name": "🤯 Priority: Critical",
+    "color": "ef3e36"
+  }
+]

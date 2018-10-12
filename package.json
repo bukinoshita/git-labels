@@ -7,7 +7,7 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "xo"
+    "test": "xo --quiet"
   },
   "dependencies": {
     "gh-got": "^8.0.1",
