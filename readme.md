@@ -63,7 +63,7 @@ Github project.
 
 Type: `array`<br />
 Format: `[ { name: NAME, color: COLOR }, ... ]`<br />
-Default: `[labels.json](https://github.com/bukinoshita/git-labels/tree/master/utils/labels.json)`
+Default: [`labels.json`](https://github.com/bukinoshita/git-labels/tree/master/utils/labels.json)
 
 Labels to be created
 
