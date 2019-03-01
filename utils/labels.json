@@ -42,5 +42,17 @@
   {
     "name": "🤯 Priority: Critical",
     "color": "ef3e36"
+  },
+  {
+    "name": "🗣 Discussion",
+    "color": "000022"
+  },
+  {
+    "name": "❓Question",
+    "color": "c42847"
+  },
+  {
+    "name": "💡Proposal",
+    "color": "fa824c"
   }
 ]
