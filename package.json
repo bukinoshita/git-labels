@@ -14,7 +14,7 @@
     "is-github-repo": "^0.0.2"
   },
   "devDependencies": {
-    "eslint-config-prettier": "6.5.0",
+    "eslint-config-prettier": "6.7.0",
     "xo": "0.25.3"
   },
   "xo": {
