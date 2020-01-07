@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "gh-got": "^8.0.1",
-    "is-github-repo": "^0.0.2"
+    "is-github-repo": "^1.0.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "6.9.0",

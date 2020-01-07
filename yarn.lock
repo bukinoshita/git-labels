@@ -1421,9 +1421,9 @@ is-get-set-prop@^1.0.0:
     get-set-props "^0.1.0"
     lowercase-keys "^1.0.0"
 
-is-github-repo@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/is-github-repo/-/is-github-repo-0.0.2.tgz#25ce65a99d09d83174956edc2c59873415cb162f"
+is-github-repo@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-github-repo/-/is-github-repo-1.0.0.tgz#995688001a5bb1299a91cd3509102001ae1451db"
 
 is-glob@^3.1.0:
   version "3.1.0"
