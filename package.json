@@ -10,7 +10,7 @@
     "test": "xo --quiet"
   },
   "dependencies": {
-    "gh-got": "^8.0.1",
+    "gh-got": "^9.0.0",
     "is-github-repo": "^0.0.2"
   },
   "devDependencies": {
